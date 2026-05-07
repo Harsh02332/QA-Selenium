@@ -9,4 +9,8 @@ class GoogleTestCase(unittest.TestCase):
         self.addCleanup(self.driver.quit)
 
     def test_page_title(self):
-        self.driver.get('https://monolithicsc.com')
+        self.driver.get('https://google.com')
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity=10)
