@@ -5,7 +5,7 @@ from selenium import webdriver
 class GoogleTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Safari()
         self.addCleanup(self.driver.quit)
 
     def test_page_title(self):
