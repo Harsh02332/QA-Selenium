@@ -10,7 +10,3 @@ class GoogleTestCase(unittest.TestCase):
 
     def test_page_title(self):
         self.driver.get('https://monolithicsc.com')
-
-
-if __name__ == '__main__':
-    unittest.main(verbosity=2)
